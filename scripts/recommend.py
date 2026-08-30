@@ -16,6 +16,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+
+def is_summer_2027(item: dict) -> bool:
+    return any((t or "").strip().lower() == "summer 2027" for t in (item.get("terms") or []))
+
 # YC batches to pull — recent enough to still be in hiring/growth mode
 YC_BATCHES = ["W24", "S24", "W25", "S25", "W26", "S26"]
 # Higher score for more recent batches
@@ -134,7 +138,10 @@ def main():
     yc_companies = fetch_yc_companies()
 
     listings = json.loads(data_path.read_text(encoding="utf-8"))
-    active = [l for l in listings if l.get("active", True) and l.get("is_visible", True)]
+    active = [
+        l for l in listings
+        if l.get("active", True) and l.get("is_visible", True) and is_summer_2027(l)
+    ]
     today = datetime.now(timezone.utc).date()
 
     # score each listing

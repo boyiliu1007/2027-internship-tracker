@@ -48,6 +48,10 @@ def slugify(s: str) -> str:
     return s or "other"
 
 
+def is_summer_2027(item: dict) -> bool:
+    return any(norm(t) == "summer 2027" for t in (item.get("terms") or []))
+
+
 CATEGORY_ALIASES = {
     "software": "Software Engineering",
     "software engineering": "Software Engineering",
@@ -76,7 +80,7 @@ def active_key_set(listings: list) -> set:
     return {
         dedup_key(l)
         for l in listings
-        if l.get("active", True) and l.get("is_visible", True)
+        if l.get("active", True) and l.get("is_visible", True) and is_summer_2027(l)
     }
 
 
@@ -161,7 +165,10 @@ def category_table(rows, today):
 
 
 def write_listings(listings, fetched_sources):
-    active = [l for l in listings if l.get("active", True) and l.get("is_visible", True)]
+    active = [
+        l for l in listings
+        if l.get("active", True) and l.get("is_visible", True) and is_summer_2027(l)
+    ]
     by_category: dict = defaultdict(list)
     for l in active:
         cat = normalize_category(l.get("category"))
@@ -234,7 +241,10 @@ def write_digest(listings: list, new_listings: list, closed_listings: list, fetc
     time_str = datetime.now(timezone.utc).strftime("%H:%M UTC")
     digest_path = DIGESTS_DIR / f"{today_str}.md"
 
-    active = [l for l in listings if l.get("active", True) and l.get("is_visible", True)]
+    active = [
+        l for l in listings
+        if l.get("active", True) and l.get("is_visible", True) and is_summer_2027(l)
+    ]
 
     # load existing digest to append, so multiple runs accumulate entries for the day
     existing = digest_path.read_text(encoding="utf-8") if digest_path.exists() else ""
