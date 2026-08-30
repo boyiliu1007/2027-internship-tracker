@@ -11,10 +11,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,11 +44,24 @@ jobs:
       - name: Commit and push if changed
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "SuryaHarikrishnan"
-            git config user.email "suryanarayanan.harikrishnan@gmail.com"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add -A
             git commit -m "Listings refresh $(date -u +%H:%M) UTC — ${{ steps.scrape.outputs.summary }}"
             git push
           else
             echo "No changes since last refresh, skipping commit."
           fi
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

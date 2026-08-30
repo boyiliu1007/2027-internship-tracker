@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 promo_drafts.md
 scripts/logs/
+site/
