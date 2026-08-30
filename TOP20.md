@@ -8,21 +8,21 @@ Ranked by freshness + company tier + role category.
 
 | # | Company | Role | Location | Terms | Date Posted | Apply |
 |---|---|---|---|---|---|---|
-| 1 | **Tesla** | Optimus Technician Intern - Tesla AI | Fremont, CA | N/A | 2026-08-28 (2d ago) | [Apply](https://www.tesla.com/careers/search/job/281634) |
-| 2 | **Apple** | Camera Hardware Engineering Intern | Cupertino, CA | N/A | 2026-08-28 (2d ago) | [Apply](https://jobs.apple.com/en-us/details/200680200) |
-| 3 | **Jane Street** | Windows Engineer Intern | London, UK | N/A | 2026-08-27 (3d ago) | [Apply](https://www.janestreet.com/join-jane-street/apply/8755768002?gh_jid=8755768002) |
-| 4 | **Amazon** | Software Development Engineer Intern - Annapurna Labs | Seattle, WA, Austin, TX, NYC, Cupertino, CA | Fall 2026 | 2026-08-27 (3d ago) | [Apply](https://amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027) |
-| 5 | **Intuit** | Software Engineer Intern - Full Stack | Charlotte, NC, NYC, Mountain View, CA, Atlanta, GA, San Diego, CA | Summer 2027 | 2026-08-29 (1d ago) | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
-| 6 | **Netflix** | Machine Learning Scientist Intern - AI | Los Gatos, CA | Winter 2027 | 2026-08-26 (4d ago) | [Apply](https://explore.jobs.netflix.net/careers/job/790317916733) |
-| 7 | **Microsoft** | Silicon Engineer Intern | Raleigh, NC, Santa Clara, CA, Mountain View, CA | Fall 2026 | 2026-08-26 (4d ago) | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556958170) |
-| 8 | **Susquehanna International Group** | AI Co-op - Drexel University | Bala Cynwyd, PA | Fall 2026 | 2026-08-25 (5d ago) | [Apply](https://careers-sig.icims.com/jobs/11368/job?mobile=true&needsRedirect=false) |
-| 9 | **Deloitte** | AI Innovation Summer Scholar Intern - AI Innovation | McLean, VA | Summer 2027 | 2026-08-27 (3d ago) | [Apply](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-AI-Innovation/364696) |
-| 10 | **IMC Trading** | Performance Engineer Intern | Chicago, IL | Summer 2027 | 2026-08-27 (3d ago) | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4842595101) |
-| 11 | **Figma** | Software Engineer Intern | San Francisco, CA, New York, NY |  | 2026-08-21 (9d ago) | [Apply](https://job-boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004) |
-| 12 | **Databricks** | Software Engineering Intern | Bellevue, Washington, Mountain View, California, San Francisco, California |  | 2026-08-21 (9d ago) | [Apply](https://www.databricks.com/company/careers/university-recruiting/software-engineering-intern-2027-start---winter-8732364002?gh_jid=8732364002) |
-| 13 | **Cloudflare** | Software Engineer Intern - Fall 2026 | London, UK | Fall 2026 | 2026-08-20 (10d ago) | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8118855) |
-| 14 | **Notion** | Data Science Intern | SF | Winter 2027 | 2026-08-20 (10d ago) | [Apply](https://jobs.ashbyhq.com/notion/a67d6f2b-7c13-41d0-b36b-b2f662c9873e/application?embed=true) |
-| 15 | **Citadel Securities** | Fundamental Analyst Intern | NYC | Fall 2026 | 2026-08-19 (11d ago) | [Apply](https://www.citadelsecurities.com/careers/details/trading-fundamental-analyst-intern-us/) |
+| 1 | **Tesla** | Software Engineer Intern - Vehicle Software - Summer 2027 | Palo Alto, CA | Summer 2027 | 2026-08-27 (3d ago) | [Apply](https://www.tesla.com/careers/search/job/281097) |
+| 2 | **Intuit** | Software Engineer Intern - Full Stack | Charlotte, NC, NYC, Mountain View, CA, Atlanta, GA, San Diego, CA | Summer 2027 | 2026-08-29 (1d ago) | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/99856180864) |
+| 3 | **Apple** | GPU Intern | London, UK, Cambridge, UK, St Albans, UK | Winter 2026, Spring 2027, Summer 2027 | 2026-08-24 (6d ago) | [Apply](https://jobs.apple.com/en-us/details/200679650) |
+| 4 | **Deloitte** | AI Innovation Summer Scholar Intern - AI Innovation | McLean, VA | Summer 2027 | 2026-08-27 (3d ago) | [Apply](https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Summer-Scholar-AI-Innovation/364696) |
+| 5 | **IMC Trading** | Performance Engineer Intern | Chicago, IL | Summer 2027 | 2026-08-27 (3d ago) | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4842595101) |
+| 6 | **Susquehanna International Group** | Quantitative Strategy Developer Intern | London, UK, Dublin, Ireland | Summer 2027 | 2026-08-21 (9d ago) | [Apply](https://careers-sig.icims.com/jobs/11333/job?mobile=true&needsRedirect=false) |
+| 7 | **NVIDIA** | Ph.D. Research Autonomous Vehicles Intern | Santa Clara, CA | Summer 2027 | 2026-08-19 (11d ago) | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Autonomous-Vehicles_JR2023838) |
+| 8 | **Google** | Research Scientist PhD Intern | London, UK | Summer 2027 | 2026-08-17 (13d ago) | [Apply](https://www.google.com/about/careers/applications/jobs/results/134795423167455942) |
+| 9 | **Datadog** | Product Management Intern | NYC | Winter 2027, Summer 2027 | 2026-08-17 (13d ago) | [Apply](https://careers.datadoghq.com/detail/8108241/?gh_jid=8108241) |
+| 10 | **Notion** | Software Engineer Intern - Summer 2027 | SF, NYC | Summer 2027 | 2026-08-15 (15d ago) | [Apply](https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c/application?embed=true) |
+| 11 | **Citadel** | Sector Data Scientist Intern | NYC | Summer 2027 | 2026-08-10 (20d ago) | [Apply](https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/) |
+| 12 | **SpaceX** | Software Engineering Intern/Co-op | Palo Alto, CA, Bastrop, TX, Irvine, CA, Cape Canaveral, FL, Brownsville, TX, Redmond, WA, McGregor, TX, Hawthorne, CA | Summer 2027 | 2026-08-03 (27d ago) | [Apply](https://boards.greenhouse.io/spacex/jobs/8621757002) |
+| 13 | **Jane Street** | Sales and Trading Intern | London, UK | Summer 2027 | 2026-08-03 (27d ago) | [Apply](https://www.janestreet.com/join-jane-street/apply/8537797002?gh_jid=8537797002) |
+| 14 | **Two Sigma** | Quantitative Researcher Intern | NYC | Summer 2027 | 2026-08-02 (28d ago) | [Apply](https://twosigma.avature.net/careers/JobDetail/13945) |
+| 15 | **Databricks** | Product Management Intern | SF, Bellevue, WA, Mountain View, CA | Summer 2027 | 2026-07-16 (45d ago) | [Apply](https://boards.greenhouse.io/embed/job_app?token=6883068002) |
 
 ## 🚀 Top 5 Startups — YC-backed, actively hiring
 
@@ -30,11 +30,7 @@ Recent YC companies (W24–S26) with open roles right now.
 
 | # | Company | Role | Location | Terms | Date Posted | Apply |
 |---|---|---|---|---|---|---|
-| 1 | **Mosaic** | Artificial Intelligence Co-op Intern | Tampa, FL | Spring 2027 | 2026-08-20 (10d ago) | [Apply](https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Spring-2027_64729) |
-| 2 | **Constellation Space** | Graduate Researcher Intern - Machine Learning | Seattle, WA | Fall 2026 | 2026-07-15 (46d ago) | [Apply](https://jobs.ashbyhq.com/constellationspace/b763d4ba-7b77-479b-89a0-f632d9d02f4a/application?embed=true) |
-| 3 | **Terranox AI** | Summer Intern - AI/ML Engineering | San Francisco, CA |  | 2026-05-14 (108d ago) | [Apply](https://www.workatastartup.com/jobs/94631) |
-| 4 | **General Astronautics** | Engineering Intern | San Francisco, CA |  | 2026-05-09 (113d ago) | [Apply](https://www.workatastartup.com/jobs/94206) |
-| 5 | **Dedalus Labs** | Product Manager Intern | SF | Fall 2026 | 2026-08-15 (15d ago) | [Apply](https://jobs.ashbyhq.com/dedalus-labs/ca4245ff-0dee-4f16-80ca-24912d72079c/application?embed=true) |
+| 1 | **Circleback** | Software Engineer Intern | SF | Summer 2027 | 2026-07-15 (46d ago) | [Apply](https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f/application?embed=true) |
 
 ---
-*Generated 2026-08-30 01:40 UTC — rankings update with each refresh. See [README](README.md) for all listings.*
+*Generated 2026-08-30 01:47 UTC — rankings update with each refresh. See [README](README.md) for all listings.*
